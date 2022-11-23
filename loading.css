@@ -1,0 +1,63 @@
+.logo{
+    animation-name: red-to-black;
+    animation-duration: 1.4s;
+    animation-iteration-count: 5;
+    /* height: 100%; */
+    width: 20%;
+    position: fixed;
+    left: 40%;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+
+
+.lt{
+background-color: rgb(255, 255, 255);
+}
+
+.logodiv{
+    position: fixed;
+    z-index: 9999999;
+    background: #fff;
+    width: 200%;
+    height: 200%;
+}
+@keyframes red-to-black{
+    0%{
+        position: fixed;
+        background-color: rgb(255, 255, 255,1);
+        transform: scale(1);
+    }
+     20%{
+        position: fixed;
+        background-color: rgb(255, 255, 255,1);
+        transform: scale(3);
+     }
+}
+
+.loader_bg {
+    position: fixed;
+    z-index: 999999999;
+    background: #fff;
+    width: 200%;
+    height: 200%;
+}
+
+.loader {
+    background: #fff;
+    width: 20%;
+    position: fixed;
+    left: 40%;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader img {
+    width: 280px;
+}
